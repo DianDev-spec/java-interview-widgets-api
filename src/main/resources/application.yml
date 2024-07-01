@@ -1,0 +1,19 @@
+server:
+  port: 9000
+
+logging:
+  level:
+    root: info
+
+management:
+  endpoint:
+    health:
+      show-detail: always
+      show-components: always
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/widgetsDB
+      database: widgetsBD
+      host: localhost
+      port: 27017
